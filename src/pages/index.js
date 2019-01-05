@@ -1,12 +1,39 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Header from '../components/header'
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <div>
-    <h1>Projects</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+   <div className="Header">
+      <Header />
+   </div>
+   <div className="CardColumn1">
+      <Card 
+       title="Title"
+       image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+      <Card 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+      <Card 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+      <Card 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+      <Card 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+      <Card 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
+      />
+   </div>
   </div>
 )
 
