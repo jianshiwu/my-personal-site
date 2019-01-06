@@ -13,12 +13,11 @@ a {
 }
 
 .CardColumn1 {
-  position: absolute;
-  margin: 16px 16px 0px;
-  padding: 350px 0px 500px 0px;
+  position: relative;
+  padding: 350px 0px 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 16px;
   justify-items: center;
 }
 

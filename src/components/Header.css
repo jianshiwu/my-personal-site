@@ -1,29 +1,32 @@
 .Header {
-    position: fixed;
-    width: 100%;
-    padding: 6px 11px;
-    z-index: 101;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .SiteName {
+    z-index: 100;
+    margin: 16px;
     position: fixed;
     align-items: center;
     cursor: pointer;
 }
 
 .Tabs {
+    z-index: 100;
     position: fixed;
-    margin: 0 36%;
+    margin: 16px 0px 0px 36%;
     display: grid;
     align-items: center;
     justify-items: left;
 }
 
 .About {
+    z-index: 100;
     position: fixed;
-    font-size: 16px;
+    font-size: 18px;
     position: fixed;
-    margin: 0px 66px 0px 60%;
+    margin: 16px 16px 0px 66%;
+    max-width: 400px;
 }
 
 .About p{
@@ -32,7 +35,7 @@
 
 @media (max-width: 680px) {
     .Header {
-        font-size: 18px;
+        font-size: 20px;
     }
     .About {
         font-size: 14px;
