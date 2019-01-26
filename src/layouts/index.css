@@ -14,7 +14,7 @@ a {
 
 .CardColumn1 {
   position: relative;
-  padding: 350px 0px 110px;
+  padding: 350px 10px 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 16px;
@@ -27,7 +27,7 @@ a {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .CardColumn1 {
     grid-template-columns: repeat(1, 1fr);
   }

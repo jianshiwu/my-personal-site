@@ -36,7 +36,6 @@ const IndexPage = () => (
       />
    </div>
    <Footer 
-    text="Copyright @ 2019 Jianshi Wu. All Rights Reserved."
     logo={require('../Images/Social-Logos/Twitter_Logo_Blue.png')}
    />
   </div>
