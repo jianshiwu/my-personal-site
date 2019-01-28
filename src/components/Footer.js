@@ -27,7 +27,7 @@ const FooterSocialLogoGroup = styled.div`
 `
 
 const EmailLogo = styled.img`
-    width: 80px;
+    width: 60px;
     @media (max-width: 720px) {
         width: 45px;
     }
@@ -63,7 +63,7 @@ const LinkedInLogo = styled.img`
 
 const Footer = props => (
     <FooterGroup>
-     <FooterCopyrightText><p>Copyright © 2019 Jianshi Wu.<br></br>All rights reservded.</p></FooterCopyrightText>
+     <FooterCopyrightText>Copyright © 2019 Jianshi Wu.</FooterCopyrightText>
      <FooterSocialLogoGroup>
          <EmailLogo src={props.logo}/>
          <InstagramLogo src={props.logo}/>
