@@ -5,7 +5,7 @@ const FooterGroup = styled.div`
     height: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    @media (max-width: 800px) {
+    @media (max-width: 720px) {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 16px;
     }
@@ -39,7 +39,7 @@ const Footer = props => (
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
          <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
-            Email
+         <span id="email">Email</span>
          </a>
          <a href="https://www.instagram.com/jianshiwu/" target="_blank">
             <span id="instagram">Instagram</span>
