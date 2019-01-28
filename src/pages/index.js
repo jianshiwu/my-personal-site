@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Header from '../components/header'
 import Card from '../components/Card';
 import Footer from '../components/Footer';

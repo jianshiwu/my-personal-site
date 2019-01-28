@@ -11,8 +11,8 @@ const FooterGroup = styled.div`
     }
 `
 
-const FooterCopyrightText = styled.p`
-    font-size: 16px;
+const FooterCopyrightText = styled.div`
+    font-size: 14px;
     color: rgba(200,200,200,1);
     margin: 0 11px;
     @media (max-width: 720px) {
@@ -20,57 +20,37 @@ const FooterCopyrightText = styled.p`
     }
 `
 
-const FooterSocialLogoGroup = styled.div`
+const FooterSocialLinkGroup = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 14px;
+    alligh-self: right;
+    color: rgba(200,200,200,1);
+    margin: 0 11px;
     @media (max-width: 720px) {
         align-self: center;
     }
 `
 
-const EmailLogo = styled.img`
-    width: 60px;
-    @media (max-width: 720px) {
-        width: 45px;
-    }
-`
-
-const InstagramLogo = styled.img`
-    width: 60px;
-    @media (max-width: 720px) {
-        width: 45px;
-    }
-`
-
-const TwitterLogo = styled.img`
-    width: 60px;
-    @media (max-width: 720px) {
-        width: 45px;
-    }
-`
-
-const MediumLogo = styled.img`
-    width: 60px;
-    @media (max-width: 720px) {
-        width: 45px;
-    }
-`
-
-const LinkedInLogo = styled.img`
-    width: 60px;
-    @media (max-width: 720px) {
-        width: 45px;
-    }
-`
-
 const Footer = props => (
     <FooterGroup>
-     <FooterCopyrightText>Copyright © 2019 Jianshi Wu. <br />All Right Reserved.</FooterCopyrightText>
-     <FooterSocialLogoGroup>
-         <EmailLogo src={props.logo}/>
-         <InstagramLogo src={props.logo}/>
-         <TwitterLogo src={props.logo}/>
-         <MediumLogo src={props.logo}/>
-         <LinkedInLogo src={props.logo}/>
-     </FooterSocialLogoGroup>
+     <FooterCopyrightText>
+         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
+     </FooterCopyrightText>
+     <FooterSocialLinkGroup>
+         <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
+            <span id="email">Email</span>
+         </a>
+         <a href="https://www.instagram.com/jianshiwu/" target="_blank">
+            <span id="instagram">Instagram</span>
+         </a>
+         <a href="https://www.linkedin.com/in/jianshiwu/" target="_blank">
+            <span id="linkedin">LinkedIn</span>
+         </a>
+         <a href="https://medium.com/@jianshiwu" target="_blank">
+            <span id="medium">Medium</span>
+         </a>
+     </FooterSocialLinkGroup>
     </FooterGroup>
 )
 
