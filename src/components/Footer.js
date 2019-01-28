@@ -20,7 +20,7 @@ const FooterCopyrightText = styled.div`
     }
 `
 
-const FooterSocialLinkGroup = styled.div`
+const FooterSocialLinkGroup = styled.a`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 14px;
