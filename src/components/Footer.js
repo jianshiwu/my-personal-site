@@ -35,7 +35,7 @@ const FooterSocialLinkGroup = styled.a`
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
+         <p>Copyright © 2019 Jianshi Wu. <br />All rights reserved.</p>
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
          <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
