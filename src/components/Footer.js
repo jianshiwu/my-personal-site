@@ -63,7 +63,7 @@ const LinkedInLogo = styled.img`
 
 const Footer = props => (
     <FooterGroup>
-     <FooterCopyrightText>Copyright © 2019 Jianshi Wu.</FooterCopyrightText>
+     <FooterCopyrightText>Copyright © 2019 Jianshi Wu. <br />All Right Reserved.</FooterCopyrightText>
      <FooterSocialLogoGroup>
          <EmailLogo src={props.logo}/>
          <InstagramLogo src={props.logo}/>
