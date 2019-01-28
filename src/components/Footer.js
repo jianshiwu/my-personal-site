@@ -27,7 +27,7 @@ const FooterSocialLogoGroup = styled.div`
 `
 
 const EmailLogo = styled.img`
-    width: 60px;
+    width: 80px;
     @media (max-width: 720px) {
         width: 45px;
     }
