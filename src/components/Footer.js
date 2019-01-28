@@ -11,7 +11,7 @@ const FooterGroup = styled.div`
     }
 `
 
-const FooterCopyrightText = styled.div`
+const FooterCopyrightText = styled.p`
     font-size: 14px;
     color: rgba(200,200,200,1);
     margin: 0 11px;
@@ -39,7 +39,7 @@ const Footer = props => (
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
          <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
-            <span id="email">Email</span>
+            Email
          </a>
          <a href="https://www.instagram.com/jianshiwu/" target="_blank">
             <span id="instagram">Instagram</span>
