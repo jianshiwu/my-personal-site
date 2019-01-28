@@ -1,19 +1,19 @@
 import React from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
 const IndexPage = () => (
   <div>
-   <div className="Header">
+   <div className="HeaderContainer">
       <Header />
    </div>
    <div className="CardContainer">
       <Card 
-       title="Title"
-       image={require('../Images/New-York-Horizon/Cover.jpg')} 
+        title="Title"
+        image={require('../Images/New-York-Horizon/Cover.jpg')} 
       />
-      <Card 
+      <Card
         title="Title"
         image={require('../Images/New-York-Horizon/Cover.jpg')} 
       />
@@ -34,7 +34,9 @@ const IndexPage = () => (
         image={require('../Images/New-York-Horizon/Cover.jpg')} 
       />
    </div>
-   <Footer />
+   <div className="FooterContainer">
+      <Footer />
+   </div>
   </div>
 )
 

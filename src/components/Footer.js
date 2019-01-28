@@ -12,11 +12,11 @@ const FooterGroup = styled.div`
 `
 
 const FooterCopyrightText = styled.p`
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(200,200,200,1);
     margin: 0 11px;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
-    @media (max-width: 720px) {
+    @media (max-width: 600px) {
         text-align: center;
     }
 `
@@ -24,12 +24,12 @@ const FooterCopyrightText = styled.p`
 const FooterSocialLinkGroup = styled.span`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     alligh-self: right;
     color: rgba(200,200,200,1);
     margin: 0 11px;
-    @media (max-width: 720px) {
+    @media (max-width: 600px) {
         align-self: center;
     }
 `
