@@ -1,52 +1,43 @@
 .Header {
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .SiteName {
     font-size: 26px;
-    z-index: 100;
     margin: 16px;
     position: fixed;
-    align-items: center;
     cursor: pointer;
 }
 
 .Tabs {
     font-size: 26px;
-    z-index: 100;
     position: fixed;
     margin: 16px 0px 0px 36%;
     display: grid;
-    align-items: center;
-    justify-items: left;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .About {
-    z-index: 100;
     position: fixed;
-    font-size: 18px;
-    position: fixed;
-    margin: 16px 16px 0px 66%;
+    right: 16px;
+    margin: 0px 16px 0px 66%;
     max-width: 400px;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.About p{
-    margin-block-start: 0px;
-}
-
 @media (max-width: 600px) {
-    .SiteName {
-    }
     .Tabs {
         align-items: right;
-        margin: 16px 0px 0px 76%;
+        margin: 16px 16px 0px 76%;
+        justify-content: right;
     }
     .About {
-        margin: 256px 16px 0px;
-        max-width: 600px;
+        top: 250px;
+        right: 10%;
+        left: 10%;
+        margin: auto;
+        max-width: 350px;
+        text-align: center;
         /* display: none; */
     }
 }
