@@ -8,7 +8,7 @@ const IndexPage = () => (
    <div className="Header">
       <Header />
    </div>
-   <div className="CardColumn1">
+   <div className="CardContainer">
       <Card 
        title="Title"
        image={require('../Images/New-York-Horizon/Cover.jpg')} 
@@ -34,9 +34,7 @@ const IndexPage = () => (
         image={require('../Images/New-York-Horizon/Cover.jpg')} 
       />
    </div>
-   <Footer 
-    logo={require('../Images/Social-Logos/Twitter_Logo_Blue.png')}
-   />
+   <Footer />
   </div>
 )
 

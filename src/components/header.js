@@ -32,9 +32,9 @@ class Header extends React.Component {
           Jianshi Wu
         </div>
         <div className="Tabs">
-          <Link to="About">About</Link>
-          <Link to="Work">Work</Link>
-          <Link to="Blog">Blog</Link>
+          <span id="about">About</span>
+          <span id="work">Work</span>
+          <span id="blog">Blog</span>
         </div>
         <div className="About">
           <p>My name is Jianshi Wu, explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>

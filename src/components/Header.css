@@ -20,6 +20,7 @@
     display: grid;
     align-items: center;
     justify-items: left;
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .About {
@@ -29,13 +30,14 @@
     position: fixed;
     margin: 16px 16px 0px 66%;
     max-width: 400px;
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .About p{
     margin-block-start: 0px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     .SiteName {
     }
     .Tabs {
@@ -44,7 +46,7 @@
     }
     .About {
         margin: 256px 16px 0px;
-        max-width: 500px;
+        max-width: 600px;
         /* display: none; */
     }
 }
