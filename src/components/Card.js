@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// Start of CSS //
+/* Start of CSS */
 
 const Card = styled.div`
     width: 100%;
@@ -11,6 +11,12 @@ const Card = styled.div`
     border-radius:11px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
 `
 
 const CardTitle = styled.h3`
@@ -22,11 +28,19 @@ const CardTitle = styled.h3`
     visibility: hidden;
 `
 
-// End of CSS //
+const CardCoverImage = styled.img`
+    position: absolute;
+    top: 0;
+    height: 110%;
+    width: 110%;
+    z-index: -1;
+`
+
+/* End of CSS */
 
 
 
-// Start of Javascript //
+/* Start of Javascript */
 
 const GalleryContainer = props => (
     <Card>
@@ -36,4 +50,4 @@ const GalleryContainer = props => (
 
 export default Card
 
-// End of Javascript //
+/* End of Javascript */
