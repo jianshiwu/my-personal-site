@@ -31,7 +31,7 @@ const CardCoverImage = styled.img`
 
 const Card = props => (
     <CardGroup>
-        <CardCoverImage image={props.image}></CardCoverImage>
+        <CardCoverImage></CardCoverImage>
     </CardGroup>)
 
 export default Card
