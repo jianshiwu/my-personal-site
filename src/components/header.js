@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Header.css"
+import styled from 'styled-components'
+
 
 class Header extends React.Component {
   constructor(props) {
