@@ -9,30 +9,12 @@ const IndexPage = () => (
       <Header />
    </div>
    <div className="Gallery">
-      <Card 
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
-      <Card
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
-      <Card 
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
-      <Card 
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
-      <Card 
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
-      <Card 
-        title="Title"
-        image={require('../Images/New-York-Horizon/Cover.jpg')} 
-      />
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
    </div>
    <Footer/>
   </div>
