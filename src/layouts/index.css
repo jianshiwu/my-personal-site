@@ -11,8 +11,8 @@ a {
   text-decoration: none;
 }
 
-.CardContainer {
-  position: relative;
+.Gallery {
+  z-index: 0;
   padding: 350px 10px 110px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -21,13 +21,13 @@ a {
 }
 
 @media (max-width: 1000px) {
-  .CardContainer {
+  .Gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .CardContainer {
+  .Gallery {
     grid-template-columns: repeat(1, 1fr);
   }
 }

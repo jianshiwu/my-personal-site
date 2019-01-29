@@ -8,7 +8,7 @@ const IndexPage = () => (
    <div className="HeaderContainer">
       <Header />
    </div>
-   <div className="CardContainer">
+   <div className="Gallery">
       <Card 
         title="Title"
         image={require('../Images/New-York-Horizon/Cover.jpg')} 
@@ -34,9 +34,7 @@ const IndexPage = () => (
         image={require('../Images/New-York-Horizon/Cover.jpg')} 
       />
    </div>
-   <div className="FooterContainer">
-      <Footer />
-   </div>
+   <Footer/>
   </div>
 )
 

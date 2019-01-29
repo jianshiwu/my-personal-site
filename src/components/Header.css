@@ -1,5 +1,6 @@
 .Header {
-    z-index: 100;
+    position:fixed;
+    z-index: 3000;
 }
 
 .SiteName {
