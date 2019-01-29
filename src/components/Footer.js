@@ -21,14 +21,11 @@ const FooterCopyrightText = styled.p`
     }
 `
 
-const FooterSocialLinkGroup = styled.a`
+const FooterSocialLinkGroup = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 16px;
-    text-decoration: none;
-    alligh-self: right;
     color: rgba(200,200,200,1);
-    margin: 0 11px;
     @media (max-width: 600px) {
         align-self: center;
     }
