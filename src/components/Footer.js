@@ -36,13 +36,12 @@ const FooterSocialLinkGroup = styled.div`
 // End of CSS 
 
 
-
 // Start of Javascript 
 
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
+         Copyright © 2019 Jianshi Wu. <br />All rights reserved xxx.
      </FooterCopyrightText>
     </FooterGroup>
 )
