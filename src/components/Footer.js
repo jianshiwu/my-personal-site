@@ -41,7 +41,7 @@ const FooterSocialLinkGroup = styled.div`
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-         Copyright © 2019 Jianshi Wu. <br />All rights reserved xxx.
+         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
     </FooterGroup>
 )
