@@ -1,13 +1,14 @@
 import React from 'react'
 import Card from '../components/Card'
 import Footer from '../components/Footer'
-import Header from '../components/Header';
+import Head from '../components/Head'
+
 
 
 
 const IndexPage = () => (
   <div>
-   <Header/>
+   <Head/>
    <div className="Gallery">
       <Card/>
       <Card/>
