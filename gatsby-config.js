@@ -1,3 +1,5 @@
+// gatsby-config.js
+
 module.exports = {
   siteMetadata: {
     title: 'Jianshi Wu',
