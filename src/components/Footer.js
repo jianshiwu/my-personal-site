@@ -21,6 +21,7 @@ const FooterCopyrightText = styled.p`
     }
 `
 
+/*
 const FooterSocialLinkGroup = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -30,6 +31,7 @@ const FooterSocialLinkGroup = styled.div`
         align-self: center;
     }
 `
+*/
 
 // End of CSS 
 
@@ -42,6 +44,10 @@ const Footer = props => (
      <FooterCopyrightText>
          Copyright © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
+    </FooterGroup>
+)
+
+/*
      <FooterSocialLinkGroup>
          <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
          <span id="email">Email</span>
@@ -56,7 +62,6 @@ const Footer = props => (
             <span id="medium">Medium</span>
          </a>
      </FooterSocialLinkGroup>
-    </FooterGroup>
-)
+*/
 
 export default Footer
