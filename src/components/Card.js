@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// Start of CSS */
+// Start of component style
 
 const CardGroup = styled.div`
     width: 100%;
@@ -23,11 +23,11 @@ const CardGroup = styled.div`
 const CardCoverImage = styled.img`
 `
 
-// End of CSS
+// End of component style
 
 
 
-// Start of Javascript
+// Start of component layout
 
 const Card = props => (
     <CardGroup>
@@ -36,4 +36,4 @@ const Card = props => (
 
 export default Card
 
-// End of Javascript
+// End of component layout
