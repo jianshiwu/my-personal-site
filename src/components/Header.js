@@ -18,30 +18,32 @@ const HeaderTitleText = styled.p`
 const HeaderTabGroup = styled.div`
     font-size: 26px;
     position: fixed;
-    margin: 0px 0px 0px 36%;
+    display: grid;
+    right: auto;
+    margin: 16px 0px 0px 36%;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
-`
-
-const AboutTab = styled.p`
-`
-const WorksTab = styled.p`
-`
-const BlogTab = styled.p`
+    @media (max-width: 600px) {
+        margin: 0px 0px 0px 80%;
+    }
 `
 
 const HeaderAboutText = styled.div`
     position: fixed;
     right: 16px;
-    margin: 0px 16px 0px 66%;
+    margin: 0 16px 0 66%;
     max-width: 400px;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    @media (max-width: 600px) {
+        top: 250px;
+        right: 10%;
+        left: 10%;
+        margin: auto;
+        max-width: 350px;
+        text-align: center;
+    }
 `
 
-
-
-
 // End of component style
-
 
 
 // Start of component layout 
@@ -52,9 +54,9 @@ const Header = props => (
         Jianshi Wu
      </HeaderTitleText>
      <HeaderTabGroup>
-         <AboutTab>About</AboutTab>
-         <WorksTab>Works</WorksTab>
-         <BlogTab>Blog</BlogTab>
+        <span id="about">About</span>
+        <span id="work">Work</span>
+        <span id="blog">Blog</span>
      </HeaderTabGroup>
      <HeaderAboutText>
       <p>My name is Jianshi Wu, explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
