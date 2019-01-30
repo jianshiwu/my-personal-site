@@ -19,11 +19,9 @@ const HeaderTabGroup = styled.div`
     font-size: 26px;
     position: fixed;
     display: grid;
-    right: auto;
     margin: 16px 16px 0px 36%;
-    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
-        margin: 16px 16px 0px 80%;
+        right: 16px;
     }
 `
 
@@ -32,13 +30,12 @@ const HeaderAboutText = styled.div`
     right: 16px;
     margin: 0 16px 0 66%;
     max-width: 400px;
-    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
-        top: 250px;
+        top: 200px;
         right: 10%;
         left: 10%;
         margin: auto;
-        max-width: 350px;
+        max-width: 330px;
         text-align: center;
     }
 `
