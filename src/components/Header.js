@@ -20,10 +20,10 @@ const HeaderTabGroup = styled.div`
     position: fixed;
     display: grid;
     right: auto;
-    margin: 16px 0px 0px 36%;
+    margin: 16px 16px 0px 36%;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
-        margin: 0px 0px 0px 80%;
+        margin: 16px 16px 0px 80%;
     }
 `
 
