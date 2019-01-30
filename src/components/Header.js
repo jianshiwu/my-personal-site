@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const HeaderGroup = styled.div`
     position:fixed;
-    z-index: 1000;
+    z-index: 999;
 `
 
 const HeaderTitleText = styled.p`
