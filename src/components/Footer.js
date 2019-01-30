@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// Start of component style
+
+
 const FooterGroup = styled.div`
-    height: 100px;
+    margin:0 16px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     @media (max-width: 600px) {
@@ -14,35 +17,44 @@ const FooterGroup = styled.div`
 const FooterCopyrightText = styled.p`
     font-size: 16px;
     color: rgba(200,200,200,1);
-    margin: 0 10px;
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
         text-align: center;
     }
 `
 
-/*
 const FooterSocialLinkGroup = styled.div`
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     font-size: 16px;
     color: rgba(200,200,200,1);
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
-        align-self: center;
+        text-align: center;
     }
 `
-*/
 
-// End of CSS 
+const EmailLink = styled.p`
+`
+
+// End of component style
 
 
-// Start of Javascript 
+// Start of component layout 
 
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
          Copyright © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
+     <FooterSocialLinkGroup>
+         <EmailLink>Email</EmailLink>
+         <EmailLink>Instagram</EmailLink>
+         <EmailLink>Twitter</EmailLink>
+         <EmailLink>LinkedIn</EmailLink>
+         <EmailLink>Medium</EmailLink>
+         <EmailLink>Dribble</EmailLink>
+     </FooterSocialLinkGroup>
     </FooterGroup>
 )
 
@@ -64,3 +76,6 @@ const Footer = props => (
 */
 
 export default Footer
+
+
+// End of component layout 

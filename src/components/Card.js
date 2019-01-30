@@ -23,6 +23,10 @@ const CardGroup = styled.div`
 const CardCoverImage = styled.img`
 `
 
+const CardTitle = styled.h2`
+`
+
+
 // End of component style
 
 
@@ -32,6 +36,7 @@ const CardCoverImage = styled.img`
 const Card = props => (
     <CardGroup>
         <CardCoverImage></CardCoverImage>
+        <CardTitle></CardTitle>
     </CardGroup>)
 
 export default Card
