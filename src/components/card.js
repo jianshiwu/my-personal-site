@@ -36,4 +36,8 @@ const Card = props => (
 
 export default Card
 
+<<<<<<< HEAD:src/components/Card.js
 // End of component layout
+=======
+// End of Javascript
+>>>>>>> 363cc09c266322d219c84659bbf2f9f3803a1592:src/components/card.js
