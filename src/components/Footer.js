@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 // Start of component style
 
-
 const FooterGroup = styled.div`
     margin:0 16px;
     display: grid;
@@ -35,6 +34,7 @@ const FooterSocialLinkGroup = styled.div`
 `
 
 const EmailLink = styled.p`
+    padding: 0;
 `
 
 // End of component style
@@ -45,7 +45,7 @@ const EmailLink = styled.p`
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
+         © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
          <EmailLink>Email</EmailLink>
