@@ -25,16 +25,13 @@ const FooterCopyrightText = styled.p`
 const FooterSocialLinkGroup = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-size: 16px;
+    font-size: 16px;   
     color: rgba(200,200,200,1);
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
         text-align: center;
+        grid-template-columns: repeat(2, 1fr);
     }
-`
-
-const EmailLink = styled.p`
-    padding: 0;
 `
 
 // End of component style
@@ -45,23 +42,11 @@ const EmailLink = styled.p`
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-         © 2019 Jianshi Wu. <br />All rights reserved.
+        Copyright © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
-         <EmailLink>Email</EmailLink>
-         <EmailLink>Instagram</EmailLink>
-         <EmailLink>Twitter</EmailLink>
-         <EmailLink>LinkedIn</EmailLink>
-         <EmailLink>Medium</EmailLink>
-         <EmailLink>Dribble</EmailLink>
-     </FooterSocialLinkGroup>
-    </FooterGroup>
-)
-
-/*
-     <FooterSocialLinkGroup>
          <a href="mailto:wujianshi52@gmail.com?Subject=Hello!">
-         <span id="email">Email</span>
+            <span id="email">Email</span>
          </a>
          <a href="https://www.instagram.com/jianshiwu/" target="_blank">
             <span id="instagram">Instagram</span>
@@ -72,10 +57,17 @@ const Footer = props => (
          <a href="https://medium.com/@jianshiwu" target="_blank">
             <span id="medium">Medium</span>
          </a>
+         <a href="https://twitter.com/JianshiWu" target="_blank">
+            <span id="medium">Twitter</span>
+         </a>
+         <a href="https://dribbble.com/jianshiwu" target="_blank">
+            <span id="medium">Dribble</span>
+         </a>
      </FooterSocialLinkGroup>
-*/
-
-export default Footer
+    </FooterGroup>
+)
 
 
 // End of component layout 
+
+export default Footer
