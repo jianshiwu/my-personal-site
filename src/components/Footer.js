@@ -4,21 +4,41 @@ import styled from 'styled-components'
 // Start of component style
 
 const FooterGroup = styled.div`
-    margin:0 16px;
+    padding: 0 16px 16px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     @media (max-width: 600px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
     }
 `
 
 const FooterCopyrightText = styled.p`
     font-size: 16px;
+    line-height: 1.4;
     color: rgba(200,200,200,1);
-    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media (max-width: 600px) {
         text-align: center;
+    }
+`
+
+const FooterSocialLinkGroup = styled.div`
+    margin: 16px 0;
+    justify-self: right;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px 40px;
+    font-size: 16px;   
+    color: rgba(200,200,200,1);
+    @media (max-width: 600px) {
+        text-align: center;
+        justify-self: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px 26px;
+        max-width: 300px;
+        margin: 16px 0 26px;
     }
 `
 
@@ -52,17 +72,6 @@ const DribbleLink = styled.a`
   text-decoration: none;
 `
 
-const FooterSocialLinkGroup = styled.div`
-    padding: 0 0 0 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    font-size: 16px;   
-    color: rgba(200,200,200,1);
-    @media (max-width: 600px) {
-        text-align: left;
-        grid-template-columns: repeat(2, 1fr);
-    }
-`
 
 // End of component style
 
