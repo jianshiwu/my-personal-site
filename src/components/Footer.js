@@ -16,7 +16,7 @@ const FooterGroup = styled.div`
 
 const FooterCopyrightText = styled.p`
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.3;
     color: rgba(200,200,200,1);
     @media (max-width: 600px) {
         text-align: center;
@@ -36,42 +36,16 @@ const FooterSocialLinkGroup = styled.div`
         text-align: center;
         justify-self: center;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 0px 26px;
+        grid-gap: 3px 26px;
         max-width: 300px;
         margin: 16px 0 26px;
     }
 `
 
-const EmailLink = styled.a`
+const SocialLink = styled.a`
   color: rgba(200,200,200,1);
   text-decoration: none;
 `
-
-const InstagramLink = styled.a`
-  color: rgba(200,200,200,1);
-  text-decoration: none;
-`
-
-const LinkedInLink = styled.a`
-  color: rgba(200,200,200,1);
-  text-decoration: none;
-`
-
-const MediumLink = styled.a`
-  color: rgba(200,200,200,1);
-  text-decoration: none;
-`
-
-const TwitterLink = styled.a`
-  color: rgba(200,200,200,1);
-  text-decoration: none;
-`
-
-const DribbleLink = styled.a`
-  color: rgba(200,200,200,1);
-  text-decoration: none;
-`
-
 
 // End of component style
 
@@ -84,24 +58,24 @@ const Footer = props => (
         Copyright © 2019 Jianshi Wu. <br />All rights reserved.
      </FooterCopyrightText>
      <FooterSocialLinkGroup>
-         <EmailLink href="mailto:wujianshi52@gmail.com?Subject=Hello!">
+         <SocialLink href="mailto:wujianshi52@gmail.com?Subject=Hello!">
             Email
-         </EmailLink>
-         <InstagramLink href="https://www.instagram.com/jianshiwu/" target="_blank">
+         </SocialLink>
+         <SocialLink href="https://www.instagram.com/jianshiwu/" target="_blank" rel="noopener">
             Instagram
-         </InstagramLink>
-         <LinkedInLink href="https://www.linkedin.com/in/jianshiwu/" target="_blank">
+         </SocialLink>
+         <SocialLink href="https://www.linkedin.com/in/jianshiwu/" target="_blank" rel="noopener">
             LinkedIn
-         </LinkedInLink>
-         <MediumLink href="https://medium.com/@jianshiwu" target="_blank">
+         </SocialLink>
+         <SocialLink href="https://medium.com/@jianshiwu" target="_blank" rel="noopener">
             Medium
-         </MediumLink>
-         <TwitterLink href="https://twitter.com/JianshiWu" target="_blank">
+         </SocialLink>
+         <SocialLink href="https://twitter.com/JianshiWu" target="_blank" rel="noopener">
             Twitter
-         </TwitterLink>
-         <DribbleLink href="https://dribbble.com/jianshiwu" target="_blank">
+         </SocialLink>
+         <SocialLink href="https://dribbble.com/jianshiwu" target="_blank" rel="noopener">
             Dribble
-         </DribbleLink>
+         </SocialLink>
      </FooterSocialLinkGroup>
     </FooterGroup>
 )
