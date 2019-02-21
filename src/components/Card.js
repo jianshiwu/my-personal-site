@@ -4,14 +4,15 @@ import styled from 'styled-components'
 // Start of component style
 
 const CardGroup = styled.div`
-    width: 100%;
-    height: 300px;
-    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 8px;
     z-index: 0;
     background: white;
     border-radius:11px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    flex: 1 1 276px;
 
     &:hover {
         transform: scale(1.02);
@@ -23,7 +24,10 @@ const CardGroup = styled.div`
 const CardCoverImage = styled.img`
 `
 
-const CardTitle = styled.h2`
+const CardTitle = styled.p`
+    visibility: hidden;
+    z-index: 1;
+    } 
 `
 
 
@@ -36,7 +40,7 @@ const CardTitle = styled.h2`
 const Card = props => (
     <CardGroup>
         <CardCoverImage></CardCoverImage>
-        <CardTitle></CardTitle>
+        <CardTitle>Project Name</CardTitle>
     </CardGroup>)
 
 export default Card

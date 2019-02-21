@@ -7,7 +7,7 @@ import Header from '../components/Header';
 const IndexPage = () => (
   <div>
    <Header/>
-   <div className="Gallery">
+   <div className="GalleryContainer">
       <Card/>
       <Card/>
       <Card/>
