@@ -9,7 +9,6 @@ const FooterGroup = styled.div`
     grid-template-columns: repeat(2, 1fr);
     @media (max-width: 600px) {
         display: flex;
-        justify-content: center;
         flex-direction: column-reverse;
     }
 `
@@ -29,14 +28,14 @@ const FooterSocialLinkGroup = styled.div`
     text-align: left;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3px 40px;
+    grid-gap: 0px 40px;
     font-size: 16px;   
     color: rgba(200,200,200,1);
     @media (max-width: 600px) {
         text-align: center;
-        justify-self: center;
+        align-self: center;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 3px 26px;
+        grid-gap: 3px 56px;
         max-width: 300px;
         margin: 16px 0 26px;
     }
