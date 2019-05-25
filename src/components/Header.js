@@ -10,7 +10,7 @@ const HeaderGroup = styled.div`
 
 const HeaderTitleText = styled.p`
     font-size: 26px;
-    margin: 16px;
+    margin: 16px 0 0 22px;
     position: fixed;
     cursor: pointer;
 `
@@ -53,7 +53,7 @@ const Header = props => (
      <HeaderTabGroup>
         <span id="about">About</span>
         <span id="work">Work</span>
-        <span id="blog">Blog</span>
+        <span id="ideas">Ideas</span>
      </HeaderTabGroup>
      <HeaderAboutText>
       <p>My name is Jianshi Wu, explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
