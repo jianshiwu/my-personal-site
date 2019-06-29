@@ -44,6 +44,15 @@ const FooterSocialLinkGroup = styled.div`
 const SocialLink = styled.a`
   color: rgba(200,200,200,1);
   text-decoration: none;
+  &:hover{
+        text-decoration: underline;
+    } 
+`
+
+const Line = styled.hr`
+  border-width: 1px;
+  margin: 100px;
+  color: Gray;
 `
 
 // End of component style
@@ -54,8 +63,8 @@ const SocialLink = styled.a`
 const Footer = props => (
     <FooterGroup>
      <FooterCopyrightText>
-        Copyright © 2019 Jianshi Wu. <br />All rights reserved.
-     </FooterCopyrightText>
+          Copyright © 2019 Jianshi Wu. <br />All rights reserved. 
+     </FooterCopyrightText>    
      <FooterSocialLinkGroup>
          <SocialLink href="mailto:wujianshi52@gmail.com?Subject=Hello!">
             Email

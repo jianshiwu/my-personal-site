@@ -8,7 +8,6 @@ body {
   
 }
 
-
 .GalleryContainer {
   z-index: 0;
   padding: 350px 8px 110px;
@@ -28,3 +27,4 @@ body {
   .GalleryContainer {
   }
 }
+
