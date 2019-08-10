@@ -1,0 +1,30 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+  
+}
+
+.GalleryContainer {
+  z-index: 0;
+  padding: 350px 8px 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+@media (max-width: 1000px) {
+  .GalleryContainer {
+  }
+}
+
+@media (max-width: 600px) {
+  .GalleryContainer {
+  }
+}
+
