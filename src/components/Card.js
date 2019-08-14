@@ -37,7 +37,7 @@ const CardTitle = styled.p`
 
 // Start of component layout
 
-const Card = props => (
+const Card = () => (
     <CardGroup>
         <CardCoverImage></CardCoverImage>
         <CardTitle>Project Name</CardTitle>

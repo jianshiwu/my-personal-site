@@ -60,7 +60,7 @@ const Line = styled.hr`
 
 // Start of component layout 
 
-const Footer = props => (
+const Footer = () => (
     <FooterGroup>
      <FooterCopyrightText>
           Copyright © 2019 Jianshi Wu. <br />All rights reserved. 

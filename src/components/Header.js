@@ -45,7 +45,7 @@ const HeaderAboutText = styled.div`
 
 // Start of component layout 
 
-const Header = props => (
+const Header = () => (
     <HeaderGroup>
      <HeaderTitleText>
         Jianshi Wu
