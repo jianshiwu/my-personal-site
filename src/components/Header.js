@@ -56,7 +56,7 @@ const Header = () => (
         <span id="ideas">Ideas</span>
      </HeaderTabGroup>
      <HeaderAboutText>
-      <p>My name is Jianshi Wu, explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+      <p>My name is Jianshi Wu, I'm trained as an architect. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
       <p>Quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
       <p>Explicabo. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, quae ab illo inventore veritatis et quas</p>
      </HeaderAboutText>
