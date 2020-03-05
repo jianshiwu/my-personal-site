@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 // Start of component style
 
-const CardGroup = styled.div`
+const CardInstance = styled.div`
     width: 400px;
-    height: 500px;
+    height: auto;
     margin: 8px;
     z-index: 0;
     background: white;
@@ -15,7 +15,7 @@ const CardGroup = styled.div`
     flex: 1 1 276px;
 
     &:hover {
-        transform: scale(1.02);
+        transform: scale(1.03);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         cursor: pointer;
     }
@@ -37,11 +37,11 @@ const CardTitle = styled.p`
 
 // Start of component layout
 
-const Card = () => (
-    <CardGroup>
-        <CardCoverImage></CardCoverImage>
+const Card = props => (
+    <CardInstance>
+        <CardCoverImage img={props.image}></CardCoverImage>
         <CardTitle>Project Name</CardTitle>
-    </CardGroup>)
+    </CardInstance>)
 
 export default Card
 

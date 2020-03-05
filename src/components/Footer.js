@@ -63,7 +63,7 @@ const Line = styled.hr`
 const Footer = () => (
     <FooterGroup>
      <FooterCopyrightText>
-          Copyright © 2019 Jianshi Wu. <br />All rights reserved. 
+          Copyright © 2020 Jianshi Wu. <br />All rights reserved. 
      </FooterCopyrightText>    
      <FooterSocialLinkGroup>
          <SocialLink href="mailto:wujianshi52@gmail.com?Subject=Hello!">

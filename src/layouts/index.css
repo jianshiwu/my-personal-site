@@ -18,12 +18,12 @@ body {
   align-content: stretch;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .GalleryContainer {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .GalleryContainer {
   }
 }
